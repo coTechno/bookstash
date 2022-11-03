@@ -1,0 +1,15 @@
+.banner{
+    height: 65vh;
+    width: 100vw;
+    background: linear-gradient(#2c2b44, #252734);
+}
+.carousel {
+    position: relative;
+    top: -50px;
+}
+@media (max-width: 772px) {
+    .banner{
+        height: 55vh;
+        font-size: 12px !important;
+    }
+}

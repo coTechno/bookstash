@@ -1,0 +1,26 @@
+.row2-container{
+    margin-top: -51px;
+    padding: 20px 0;
+    margin-bottom: 51px;
+    background-color: rgb(15 22 29 / 82%);
+    color: #eadede;
+}
+.row2-header {
+  font-size: 3rem;
+  text-align: center;
+}
+.row2-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px 20px;
+  padding: 10px 10px;
+  gap: 15px;
+}
+@media (max-width: 643px) {
+  .row2-list {
+    margin: 10px 4px;
+    padding: 10px 4px;
+    gap: 3px;
+  }
+}

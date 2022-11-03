@@ -1,0 +1,135 @@
+.contact-container {
+  background-color: rgb(15 22 29 / 82%);
+  min-height: 513px;
+  /* min-width: 100vw; */
+  margin-top: -10px;
+  overflow: hidden !important;
+}
+.contact-content {
+  margin: 0 auto;
+}
+.book-image {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 30px;
+  padding-top: 97px;
+  z-index: 9;
+}
+.book-image img {
+  height: 335px;
+  z-index: 2;
+}
+#bubble-1 {
+  position: absolute;
+  top: 51px;
+  left: 190px;
+  height: 350px;
+  width: 350px;
+  z-index: 1;
+}
+#bubble-2 {
+  height: 300px;
+  width: 300px;
+  margin-top: 45px;
+}
+#bubble-3 {
+  position: absolute;
+  top: 273px;
+  left: 74px;
+  height: 150px;
+  width: 150px;
+}
+#bubble-4 {
+  position: absolute;
+  bottom: 279px;
+  left: 207px;
+  height: 90px;
+  width: 90px;
+}
+#bubble-5 {
+  position: absolute;
+  top: 73px;
+  right: 65px;
+  height: 200px;
+  width: 200px;
+}
+#bubble-6 {
+  position: absolute;
+  bottom: 316px;
+  right: 65px;
+  height: 130px;
+  width: 130px;
+}
+#bubble-7 {
+  position: absolute;
+  bottom: 299px;
+  left: 532px;
+  height: 190px;
+  width: 190px;
+}
+.contact-form {
+  padding: 12px;
+  position: absolute;
+  top: 137px;
+  right: 7rem;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 99;
+}
+.contact-form h1 {
+  text-align: center;
+}
+.contact-form form input {
+  padding: 20px;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  display: flex;
+  margin-bottom: 10px;
+  background-color: #201f26;
+  flex-direction: column;
+  transition: 0.3s ease-in;
+  border: none;
+  color: #fff;
+}
+.contact-form form input:hover {
+  background-color: #b8b2b2;
+}
+.contact-form .btn {
+  outline: none;
+  color: #2b2727;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  transition: 0.3s ease-in;
+}
+.contact-form .btn:hover {
+  color: #fff;
+  background-color: #000;
+}
+@media (max-width: 530px) {
+  .contact-form {
+    position: absolute;
+    top: 33px;
+    right: 10px;
+  }
+  .contact-container {
+    min-height: 80vh;
+  }
+}
+@media (max-width: 730px) {
+  .contact-container {
+    min-width: 90px;
+    min-height: 600px;
+  }
+  .contact-content {
+    position: absolute;
+    top: 137px;
+    padding: 20px 20px;
+    right: 1rem;
+  }
+}
